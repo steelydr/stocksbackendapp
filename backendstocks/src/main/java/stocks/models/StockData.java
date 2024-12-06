@@ -1,4 +1,4 @@
-package stocks.homepage;
+package stocks.models;
 
 import jakarta.json.bind.annotation.JsonbCreator;
 import jakarta.json.bind.annotation.JsonbProperty;

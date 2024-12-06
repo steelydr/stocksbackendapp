@@ -1,4 +1,4 @@
-package stocks.historical;
+package stocks.scrappers;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -10,6 +10,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import stocks.models.HistoricalStockData;
 
 public class HistoricalStockScraper {
     

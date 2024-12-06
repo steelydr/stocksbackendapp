@@ -1,4 +1,5 @@
-package stocks.homepage;
+package stocks.scrappers;
+
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -7,6 +8,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import stocks.models.StockData;
 
 public class StockScraper {
 
